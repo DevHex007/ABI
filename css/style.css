@@ -8,7 +8,7 @@ body {
     background: /* #FFFF8A; */ linear-gradient(45deg, #FFFF8A, #7462ff, #f48e21, #FFFF8A);
     background-size: 300% 300%;
     animation: color 6s ease-in-out infinite;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 @keyframes color{
