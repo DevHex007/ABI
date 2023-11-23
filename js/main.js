@@ -113,6 +113,31 @@
             }
         }
     });
+
+      // Our Partner Carousel
+       $(".partners-carousel").owlCarousel({
+        autoplay: true,
+        animateIn: 'slideInDown',
+        animateOut: 'slideOutDown',
+        items: 1,
+        smartSpeed: 450,
+        dots: false,
+        loop: true,
+        responsive: {
+            0:{
+                items:1
+            },
+            576:{
+                items:1
+            },
+            768:{
+                items:2
+            },
+            992:{
+                items:2
+            }
+        }
+    });
     
     
     // Causes progress
